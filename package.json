@@ -1,7 +1,7 @@
 {
   "name": "metisoft-module-exporter",
   "description": "Metisoft, LLC - Module Exporter",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "./index.js",
   "types": "types/index.d.ts",
   "author": "James Brawn, Jr.",
