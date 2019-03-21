@@ -1,22 +1,22 @@
 {
   "name": "metisoft-module-exporter",
   "description": "Metisoft, LLC - Module Exporter",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "main": "./index.js",
   "types": "types/index.d.ts",
   "author": "James Brawn, Jr.",
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "lodash": "^4.12.0"
+    "lodash": "^4.17.11"
   },
   "devDependencies": {
-    "jasmine-node": "^1.14.5",
+    "jasmine": "^3.3.1",
     "jsdoc": "^3.4.0",
     "minami": "^1.1.1"
   },
   "scripts": {
     "genDocs": "jsdoc src/ -p -r --verbose -t node_modules/minami -d doc/jsdoc -c doc/conf.json --tutorials doc/tutorials",
-    "test": "./node_modules/.bin/jasmine-node spec"
+    "test": "./node_modules/.bin/jasmine spec/src/ModuleExporter_spec.js"
   }
 }
